@@ -3885,3 +3885,7 @@ input, select, textarea {
 .project {
 	font-weight: bold;
 }
+
+.project img {
+	border: 1px solid black;
+}
