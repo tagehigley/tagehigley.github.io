@@ -39,10 +39,34 @@
 						</header>
 						<div class="content">
 							<p><a href="https://github.com/tagehigley/NumberGuessingGame/tree/master"><strong>Git Hub Code!</strong></a>   <a href="http://tagehigleyspr22.epizy.com/guessinggame/guessinggamelogin.php"><strong>&nbsp;&nbsp;Play the game!</strong></a></p>
-							<p>This number guessing game was an exercise in setting up web hosting, html, css, and php. This was my first usage of real php for a working project. I also learned the basics of bootstrap to design the front end. A database keeps track of the users accounts and displays a top ten scores once a game is completed.</p>
-							<span class="image main"><img src="images/gallery/numbergameone.png" alt="" /></span>
-							<span class="image main"><img src="images/gallery/numbergametwo.png" alt="" /></span>
-							<span class="image main"><img src="images/gallery/numbergamethree.png" alt="" /></span>
+							<h2><strong><u>Overview</u></strong></h2>
+							<p><strong>This number guessing game was an exercise in setting up web hosting, html, css, and php. This was my first usage of real php for a working project. I also learned the basics of bootstrap to design the front end. A database keeps track of the users accounts and displays a top ten scores once a game is completed. See the below details section for more info.</strong></p>
+							<details>
+								<summary><strong>Details...</strong></summary>
+								This project was my first real experience using php to write server side code. The php code used to handle user account creation, sign in and authentication,
+								game processes and database content accessing and saving.
+								<br>
+								<br>
+								This project was also my first time configuring and hosting a site for anyone to access. The hosting was done through infinityfree.com
+								that handled a lot of the webserver configuration which made the whole process significantly easier for someone who was setting such a project
+								up for the first time.
+								<br>
+								<br>
+								A list of technologies used in this project:
+								<ul>
+									<li>HTML</li>
+									<li>CSS with Boostrap 5</li>
+									<li>PHP with PHPMyAdmin</li>
+									<li>MySqls</li>
+								</ul>
+								This is a hybrid group project. Each of my group members worked on their own projects but we collaborated and helped each other solve
+								problems within everyone's own project.
+
+
+								<span class="image main"><img src="images/gallery/numbergameone.png" alt="" /></span>
+								<span class="image main"><img src="images/gallery/numbergametwo.png" alt="" /></span>
+								<span class="image main"><img src="images/gallery/numbergamethree.png" alt="" /></span>
+							</details>
 						</div>
 					</section>
 
@@ -53,10 +77,43 @@
 						</header>
 						<div class="content">
 							<p><a href="https://github.com/tagehigley/CS3750Group/tree/main/Hangman"><strong>Git Hub Code!</strong></a></p>
-							<p>This game man game was a group collaboration between myself and three group members. We built off our own previous number guessing games to design and build hangman. The game is written in c# using blazor and WebAssembly. Hangman uses an access database to store user profiles. The game checks the server asynchronously to determine if a letter is correct. Once the word has been correctly guessed the top ten scores are displayed.</p>
-							<span class="image main"><img src="images/gallery/hangmanone.png" alt="" /></span>
-							<span class="image main"><img src="images/gallery/hangmantwo.png" alt="" /></span>
-							<span class="image main"><img src="images/gallery/hangmanthree.png" alt="" /></span>
+							<h2><u>Overview</u></h2>
+							<p>This hangman game was a group collaboration between myself and three group members. We built off our own previous number guessing games to design and build hangman. For more information see the details section below.</p>
+							<details>
+								<summary>Details...</summary>
+								This hangman project was a group project between myself and three group members. We used ASP.net and Blazor
+								to build an asynchronous web application. This was the first time anyone in our group had used ASP.net and Blazor
+								and two of our group members hadn't used c# before. Some initial challenges involved the setup and configuration
+								of Blazor and ourselves getting familiar with the framework. We built this project shortly after .net 6.0 was released and found
+								some challenges finding information online as most help online was referring to .net 5.0 or later. This created some small challenges
+								that we as a group handled overtime. The game also has account creation, user authentication with password hashing and salting, and score
+								tracking all handled by a Microsoft Access Database.
+								<br>
+								<br>
+								The project has a backend that keeps track of the users entered guesses and returns asynchronously to the client if they have guessed a
+								correct letter or not. Once a game ends, either in victory or defeat, a list of the top ten best scores is read from the database
+								and displayed on screen.
+								<br>
+								<br>
+								A list of technologies used in this project:
+								<ul>
+									<li>HTML</li>
+									<li>CSS with Bootstrap 5</li>
+									<li>Blazor in ASP.net</li>
+									<li>C#</li>
+									<li>Microsoft Access</li>
+								</ul>
+								My contributions to the project was helping solve some initial configuration issues. I built and implemented a text file
+								of 10k words to be used for the game. I assisted with getting the database implemented into the project. My research was looking
+								into EntityCoreFramework for the database connection before the group decided to use a Microsoft Access Database. I also worked
+								with some minor front end features and vigorous testing of the project.
+
+								<span class="image main"><img src="images/gallery/hangmanone.png" alt="" /></span>
+								<span class="image main"><img src="images/gallery/hangmantwo.png" alt="" /></span>
+								<span class="image main"><img src="images/gallery/hangmanthree.png" alt="" /></span>
+								<p>.gif of project in action:</p>
+								<span class="image main"><img src="images/gallery/Hangman.gif" alt="" /></span>
+							</details>
 						</div>
 					</section>
 
@@ -67,25 +124,81 @@
 						</header>
 						<div class="content">
 							<p><a href="https://github.com/tagehigley/CS3750Group/tree/main/Speed"><strong>Git Hub Code!</strong></a></p>
-							<p>Speed is a classic two player card game. This project was also a group collaboration between myself and my three group members. The game was built using c# and blazor. Since speed is a quick paced game without turns we decided to utilize SignalR to update each users screens after passing data to the server regarding a players move. The game is won when one of the two players rids themselves of all of their cards. </p>
-							<span class="image main"><img src="images/gallery/speedone.png" alt="" /></span>
-							<span class="image main"><img src="images/gallery/speedtwo.png" alt="" /></span>
-							<span class="image main"><img src="images/gallery/speedthree.png" alt="" /></span>
+							<h2><u>Overview</u></h2>
+							<p>Speed is a  two player card game built in Blazor with ASP.net that uses SignalR to connect two users together to play the game. For more information see the details section below.</p>
+							<details>
+								<summary>Details...</summary>
+								This was a group project built by myself and three other groupmates.
+								<br>
+								<br>
+								Speed is a classic card game that two players compete against one another to rid themselves of all of their cards.
+								The first player to run out of cards wins the game.
+								<br>
+								<br>
+								Speed is not a turn based card game and both players can play their move at any time. This presented a situation where rapid
+								client communication between each other and a server was needed. Our group decided that using SignalR would be the best way
+								to achieve rapid client-server-client communication.
+								<br>
+								<br>
+								A list of technologies used in this project:
+								<ul>
+									<li>HTML</li>
+									<li>CSS with Bootstrap 5</li>
+									<li>Blazor in ASP.net</li>
+									<li>C#</li>
+									<li>SignalR</li>
+								</ul>
+								My contributions to this project was researching and building our SignalR hub. Surprisingly there wasn't
+								much information I could find regarding using SignalR for a multiplayer card game and instead resulted
+								into deep diving into public GitHub repos to decode and understand what was necessary to implement a
+									working SignalR client-server-client communication setup. I also built different object classes that made card
+								control easier for the game. I also worked on game testing and bug hunting/solving.
 
+
+								<span class="image main"><img src="images/gallery/speedone.png" alt="" /></span>
+								<span class="image main"><img src="images/gallery/speedtwo.png" alt="" /></span>
+								<span class="image main"><img src="images/gallery/speedthree.png" alt="" /></span>
+								<p>.gif of project in action:</p>
+								<span class="image main"><img src="images/gallery/speed.gif" alt="" /></span>
+							</details>
 						</div>
 					</section>
 
 				<!-- Section -->
 					<section>
 						<header>
-							<h2>Scholarship Application</h2>
+							<h2>Scholarship Application Project</h2>
 						</header>
 						<div class="content">
-							<p>The scholarship application site of Weber State was in need of some updating. My professor decided to task the groups of students to the challenge of updating the app to dotnet 6.0 and find some of the major bugs that were hidden within the site. The site was created in Asp.net and was originally written in dotnet 2.0. My group and I worked as a team to target any issues we could find and provide clear and bug free solutions to the outstanding bugs. My overall contribution to the group was updating from dotnet 2.0 to dotnet 6.0.</p>
-							<p>Updating a "legacy" project to the latest dotnet framework was a large task. There is only so much help online when it comes to updating someone elses code. After three days of effort the project was building on dotnet 6.0 and my group was able to continue debugging and finished the project.</p>
-							<span class="image main"><img src="images/gallery/scholarshipone.png" alt="" /></span>
-							<span class="image main"><img src="images/gallery/scholarshiptwo.png" alt="" /></span>
-							<span class="image main"><img src="images/gallery/scholarshipthree.png" alt="" /></span>
+							<h2>Overview</h2>
+							<p>A scholarship application subsection site of my college's overall website. This project was tasked by my professor to update to the latest version of .net 6.0 and fix some bugs present in the application. See the details section for more information.</p>
+							<details>
+								<summary>Details...</summary>
+								The scholarship application site of Weber State's website was in need of some updating. My professor
+								decided to task the groups of students in class to the challenge of updating the app to .net 6.0 and
+								find some major bugs that were hidden within the site.
+								The site was created in Asp.net and was originally written in .net 2.0.
+								My group and I worked as a team to target any issues we could find and
+								provide clear and bug free solutions to the outstanding bugs.
+								<br>
+								<br>
+								Updating a "legacy" project to the latest .net framework was a large task.
+								There is only so much help online when it comes to updating someone else's code.
+								After three days of effort the project was building successfully on .net 6.0 and my group was
+								able to continue debugging and finished the project.
+								<br>
+								<br>
+								My contributions to the group was going through the rigorous updating procedure of moving from
+								.net 2.0 to 2.1, to 2.2, to 3.0, to 3.1, and finally to .net 6.0. After the project was updated
+									I helped my groupmates comb the projects for bugs in the program and helped to find solutions
+								to the bugs.
+
+								<span class="image main"><img src="images/gallery/scholarshipone.png" alt="" /></span>
+								<span class="image main"><img src="images/gallery/scholarshiptwo.png" alt="" /></span>
+								<span class="image main"><img src="images/gallery/scholarshipthree.png" alt="" /></span>
+								<p>.gif of project in action:</p>
+								<span class="image main"><img src="images/gallery/Scholarships.gif" alt="" /></span>
+							</details>
 						</div>
 					</section>
 
